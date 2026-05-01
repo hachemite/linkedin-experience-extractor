@@ -10,13 +10,13 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Zip the extension
-      run: zip -r Linkedin-ExTRACTOR.zip . -x "*.git*" "*.github*" "node_modules/*" "README.md"
+      run: zip -r linkedin-ExTRACTOR.zip . -x "*.git*" "*.github*" "node_modules/*" "README.md"
 
     - name: Upload Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: linkedin-extractor-zip
         path: linkedin-extractor.zip
