@@ -1,0 +1,24 @@
+name: Build and Release Extension
+
+on:
+  push:
+    tags:
+      - 'v*' # This triggers the workflow ONLY when you push a tag like v1.0.0
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Zip the extension
+      run: zip -r Linkedin-Experience-ExTRACTOR.zip . -x "*.git*" "*.github*" "node_modules/*" "README.md"
+
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: linkedin-experience-extractor.zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
