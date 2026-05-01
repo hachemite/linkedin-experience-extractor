@@ -19,6 +19,16 @@ jobs:
     - name: Create GitHub Release
       uses: softprops/action-gh-release@v1
       with:
-        files: linkedin-experience-extractor.zip
+        files: Linkedin-Experience-ExTRACTOR.zip
+        name: Release ${{ github.ref_name }}
+        body: |
+          ### New Update
+          Automated build for version ${{ github.ref_name }}.
+          
+          **Changes in this release:**
+          - Updated extractor logic
+          - Bug fixes and performance improvements
+        draft: false
+        prerelease: false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
