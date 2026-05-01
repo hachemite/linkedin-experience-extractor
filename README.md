@@ -2,8 +2,11 @@
 
 Stop copy-pasting LinkedIn profiles manually. Extract nested experience, projects, and metadata into clean CSVs or json automatically **100% privately, securely, and for free.**
 
+show all users extracted and can choose between json or csv to download
+
 ![UI Screenshot](ui-screenshot.png) 
 
+Toast show succefully get the data 
 
 ![Toast Screenshot](toast-screenshot.png)
 
@@ -57,7 +60,7 @@ If this extension has saved you hours of manual copy-pasting, please consider su
 
 *   ⭐ **Star this repository:** It helps other people find the tool! (Click the Star button at the top right of the page).
 *   📣 **Share it:** Tell your recruiting team, sales team, or classmates about it.
-*   ☕ **Buy me a coffee:** If you want to support my late-night coding sessions, you can [Buy Me a Coffee here](link-to-your-buymeacoffee/ko-fi) or sponsor me on GitHub.
+*   ☕ **Buy me a coffee:** If you want to support my late-night coding sessions, you can still not configured( ([Buy Me a Coffee here](link-to-your-buymeacoffee/ko-fi)) or sponsor me on GitHub.
 ## 🛠️ Usage
 
 1. Go to any LinkedIn profile (e.g., `https://www.linkedin.com/in/some-profile/`).
