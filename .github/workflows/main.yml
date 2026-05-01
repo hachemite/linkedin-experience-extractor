@@ -14,11 +14,11 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Zip the extension
-      run: zip -r linkedin-experience-extractor.zip . -x "*.git*" "*.github*" "node_modules/*" "README.md"
+      run: zip -r Linkedin-Experience-ExTRACTOR.zip . -x "*.git*" "*.github*" "node_modules/*" "README.md"
 
     - name: Create GitHub Release
       uses: softprops/action-gh-release@v1
       with:
-        files: Linkedin-Experience-ExTRACTOR.zip
+        files: linkedin-experience-extractor.zip
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
