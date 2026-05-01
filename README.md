@@ -1,11 +1,11 @@
 #  LinkedIn Experience ExTRACTOR | Local-First Experience Extractor
 
-Stop copy-pasting LinkedIn profiles manually. Extract nested experience, projects, and metadata into clean CSVs or json automatically—**100% privately, securely, and for free.**
+Stop copy-pasting LinkedIn profiles manually. Extract nested experience, projects, and metadata into clean CSVs or json automatically **100% privately, securely, and for free.**
 
 ![UI Screenshot](ui-screenshot.png) 
 
 
-![Toast Screenshot](link-to-your-toast-screenshot.png)
+![Toast Screenshot](toast-screenshot.png)
 
 
 ## 📖 The Story (Why I built this)
@@ -55,4 +55,4 @@ Since this is a free, open-source tool, you can install it directly into Chrome 
 Whether you're a recruiter, a sales professional, or another student hunting for an internship, feel free to use this code, fork it, and submit Pull Requests! 
 
 ## 📄 License
-This project is licensed under the MIT License - meaning you can use it, modify it, and distribute it for free.
+This project is licensed under the MIT License .
