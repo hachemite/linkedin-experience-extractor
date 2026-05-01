@@ -2,8 +2,11 @@
 
 Stop copy-pasting LinkedIn profiles manually. Extract nested experience, projects, and metadata into clean CSVs or json automatically **100% privately, securely, and for free.**
 
+show all users extracted and can choose between json or csv to download
+
 ![UI Screenshot](ui-screenshot.png) 
 
+Toast show succefully get the data 
 
 ![Toast Screenshot](toast-screenshot.png)
 
